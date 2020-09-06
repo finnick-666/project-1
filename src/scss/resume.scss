@@ -1,5 +1,6 @@
 #Resume
 {
+    margin-top: 50px;
     span
     {
         padding: 10px 20px 10px 20px;
@@ -29,7 +30,7 @@
         {
             display: -webkit-flex;
             display: flex;
-            background: linear-gradient(to right,#CCC 45%,#000 45%,#000 45%,#CCC 50%);
+            background: linear-gradient(to right,#CCC 45%,rgb(27, 246, 253) 45%,rgb(27, 246, 253) 45%,#CCC 50%);
             order: 2;
             text-align: center;
             flex-basis: 100px;

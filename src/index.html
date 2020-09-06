@@ -20,7 +20,7 @@
                     <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a href="#Header" class="navbar-brand">
+                    <a href="#Home" class="navbar-brand">
                         <h3>Finnick</h3>
                     </a>
                     <div class="collapse navbar-collapse" id="Navbar">
@@ -35,7 +35,7 @@
                                 <a href="#Resume" class="nav-link">Resume</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Contact</a>
+                                <a href="#Contact" class="nav-link">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -46,10 +46,23 @@
 
 
     <main>
-        <div id="bg-img"></div>
+        <!-- Home Page -->
+        <section id="Home" class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="welcomePage mx-5 px-5">
+                            <h1>Welcome, I'm Finnick.</h1>
+                            <div id="clock">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- About Me -->
-        <section id="About">
+        <section id="About" class="pt-5">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -60,7 +73,7 @@
                                         <img src="../src/asset/shui.jpg" alt="photo" width="250" height="250"
                                             class="img-fluid rounded-top mx-5 d-none d-lg-block">
                                         <div class="media-body">
-                                            <h3 class="display-4 ml-5">I'm Mr.Yao</h3>
+                                            <h3 class="display-4 ml-5">I'm Finnick</h3>
                                             <p class="text-muted ml-5">Programmer</p>
                                             <div class="container">
                                                 <table class="table table-responsive ml-4">
@@ -112,7 +125,7 @@
         </section>
 
         <!-- Skills -->
-        <section id="Skills" class="mt-5">
+        <section id="Skills" class="mt-5 pt-5">
             <div class="container">
                 <span class="bg-primary text-white">My Skills</span>
                 <hr class="bg-primary">
@@ -155,7 +168,7 @@
 
         <!-- Resume -->
         <section id="Resume">
-            <div class="container mt-5">
+            <div class="container mt-5 pt-5">
                 <span class="bg-info text-white">Resume</span>
                 <hr class="bg-info">
                 <div class="timeline my-3">
@@ -229,6 +242,7 @@
     <footer>
 
     </footer>
+    <script src="../src/js/clock.js"></script>
     <script src="../src/js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
